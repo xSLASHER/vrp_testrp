@@ -187,7 +187,6 @@ end)
 RegisterNUICallback('kick', function(data, cb)
     closeGui()
     cb('ok')
-    DrawMissionText2("~r~Nu ati reusit testul, puteti incerca din nou o alta zi", 2000)	
     onTtest = false
 end)
 
